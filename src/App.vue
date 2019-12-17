@@ -37,19 +37,24 @@
           Built with ♥ and
           <a href="https://vuejs.org/">Vue.js</a> | CSS animations by
           <a href="http://animista.net/">Animista</a> | Proudly deployed on
-          <a href="https://netlify.com/">Netlify</a>
+          <a href="https://netlify.com/">Netlify</a> 
+		 
         </p>
-        <p>
-          Designed, coded, and deployed from scratch by Spencer Woo. Open source on
-          <a
-            href="https://github.com/spencerwooo/portfolio"
-          >GitHub</a>.
-        </p>
+		
         <p id="busuanzi_container_site_pv">
           Viewed by you guys for a total of
           <span id="busuanzi_value_site_pv"></span> times ♥
         </p>
-        <p id="footer-copyright">©{{ getYear() }} Spencer Woo</p>
+		<p 
+		<a href="https://github.com/spencerwooo/portfolio">
+			<img src="https://flat.badgen.net/badge/Designed%20by/@SpencerWoo/blue" alt="copyright" />
+		</a>
+		
+		</p>
+		<div style="float:left;width:450px;">Last updated on 17 Dec. 2019</div>
+        <p id="footer-copyright">©{{ getYear() }} Jack Wang</p>
+		
+		
       </div>
     </div>
   </div>

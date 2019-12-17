@@ -1,81 +1,106 @@
 <template>
   <div class="container">
     <img id="avatar" alt="avatar" src="./../assets/icon.jpg" />
-    <h1>Spencer Woo</h1>
-    <h2>👨‍🎨 👨‍💻 🙋‍♂️ .DS_Store</h2>
-
-    <p>CS 在读 / 少数派资深作者 / Arch Linux 精神用户 / 人民艺术家</p>
-    <p>
-      * he is also the creator of
-      <a href="https://dowww.spencerwoo.com/">'Dev on Windows with WSL'</a>
+    <h1>Jack Wang</h1>
+	<h3>CS精神在读 / 啥都会一点的程序猿 </h3>
+    <p>Status: 爱尔兰留学申请ing.
+	 <a href="https://dowww.spencerwoo.com/"> [🎯 Progress]</a>
+	</p>
+    <p>Goal: Working on Java and Android, Dreaming to be a Software Engineering.
+      <a href="https://dowww.spencerwoo.com/"> [🎯 Progress]</a>
     </p>
 
     <hr id="top-hr" />
     <h3>🎉 Where to find me:</h3>
     <div id="card-container">
-      <Card
-        msg="少数派 sspai"
-        backgroundColor="#ca2c2a"
-        description="✏️ 主要输出战场！"
-        textColor="#FFFFFF"
-        icon="sspai.png"
-        link="https://sspai.com/u/spencerwoo/posts"
-      />
+
       <Card
         msg="博客 Blog"
         backgroundColor="#0083c0"
-        description="📒 从头开始（咕咕咕）"
+        description="📒 立个Flag多写点Blog 🏳️‍🌈"
         textColor="#FFFFFF"
         icon="netlify.png"
-        link="https://blog.spencerwoo.com"
+        link="https://hugo.wangbj.top"
       />
-      <Card
+    
+	   <Card
         msg="GitHub"
         backgroundColor="#24292E"
         description="📦 我做过的项目都在这里"
         textColor="#FFFFFF"
         icon="github.png"
-        link="https://github.com/spencerwooo"
+        link="https://github.com/skycity233"
       />
+	  
+	   <Card
+        msg="Hexo Blog"
+        backgroundColor="#ca2c2a"
+        description="🔌 不再维护"
+        textColor="#FFFFFF"
+        icon="hexo.png"
+        link="https://blog.wangbj.top"
+      />
+	  
     </div>
 
     <div id="others">
       <hr />
-      <h3>我还偶尔出没于：</h3>
+      <h3>你可以这样联系我：</h3>
       <div class="social-media">
         <div class="social-media-card">
           <img class="media-icon" src="@/assets/weibo.png" alt="weibo" />
           <span>
             Weibo:
-            <a href="https://weibo.com/u/6265807914">@SPNCR</a>
+            <a href="https://weibo.com/2972294092">@SkyCity___</a>
           </span>
         </div>
         <div class="social-media-card">
           <img class="media-icon" src="@/assets/twitter.png" alt="twitter" />
           <span>
             Twitter:
-            <a href="https://twitter.com/realSpencerWoo">@realSpencerWoo</a>
+            <a href="https://twitter.com/w1197274057">@w1197274057</a>
           </span>
         </div>
         <div class="social-media-card">
-          <img class="media-icon" src="@/assets/telegram.png" alt="telegram" />
+          <img class="media-icon" src="@/assets/gmail.png" alt="gmail" />
           <span>
-            Telegram Channel:
-            <a href="https://t.me/realSpencerWoo">t.me/realSpencerWoo</a>
+            Gmail:
+            <a href="mailto: realJackWang@gmail.com">realJackWang@gmail.com</a>
           </span>
         </div>
       </div>
 
-      <p>🧨 感谢大哥的关注！给您拜年了！干杯 🍻</p>
+  
 
-      <hr />
-
-      <h3>Want to use this template on your website?</h3>
-      <p>想要用我的模板搭建自己的 Portfolio？请记得不要删掉下面的 Badge，谢谢。</p>
-      <a href="https://github.com/spencerwooo/portfolio">
-        <img src="https://flat.badgen.net/badge/Designed%20by/@SpencerWoo/red" alt="copyright" />
-      </a>
     </div>
+	<div id="others">
+		<hr />
+		<h3>友情链接：</h3>
+		
+		 <div class="social-media-card">
+          <img class="media-icon" src="@/assets/chongxin.png" alt="chongxin" />
+          <span>
+            山东大学·崇新学堂:&nbsp;
+            <a href="http://cxxt.wesdu.cn/">cxxt.wesdu.cn</a>
+			&nbsp;
+			(My College)
+          </span>
+        </div>
+		
+		
+		 <div class="social-media-card">
+          <img class="media-icon" src="@/assets/spencerwoo.jpg" alt="spencerwoo" />
+          <span>
+            Spencer Woo:&nbsp;
+            <a href="https://spencerwoo.com">spencerwoo.com</a>
+			 &nbsp;
+			(Special Thanks, Learnt lots of new-tech from his blog.)
+			
+          </span>
+        </div>
+	
+	</div>
+	
   </div>
 </template>
 
