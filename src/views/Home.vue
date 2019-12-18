@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <img id="avatar" alt="avatar" src="./../assets/icon.jpg" />
+    <img id="avatar" alt="avatar" src="./../assets/icon.png" />
     <h1>Jack Wang</h1>
 	<h3>CS精神在读 / 啥都会一点的程序猿 </h3>
     <p>Status: 爱尔兰留学申请ing.
