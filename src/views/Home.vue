@@ -4,10 +4,10 @@
     <h1>Jack Wang</h1>
 	<h3>CS精神在读 / 啥都会一点的程序猿 </h3>
     <p>Status: 爱尔兰留学申请ing.
-	 <a href="https://dowww.spencerwoo.com/"> [🎯 Progress]</a>
+	 <a href="https://wangbj.top/404"> [🎯 Progress]</a>
 	</p>
     <p>Goal: Working on Java and Android, Dreaming to be a Software Engineering.
-      <a href="https://dowww.spencerwoo.com/"> [🎯 Progress]</a>
+      <a href="https://wangbj.top/404"> [🎯 Progress]</a>
     </p>
 
     <hr id="top-hr" />
