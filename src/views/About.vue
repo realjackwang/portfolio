@@ -2,30 +2,32 @@
   <div class="container">
     <h1>👓</h1>
     <h1>About</h1>
-    <p>这人是谁啊，这么牛逼哄哄的？</p>
+    <p>🙇‍♀️：这人是谁啊？🙎‍♂️：菜鸡？🙅‍♂️：不，我相信他会变好的.</p>
 
     <hr id="top-hr" />
     <div class="article">
-      <p>大噶好哇。我是 Spencer，一名在北京读书的学生，CS 专业大四在读。与此同时，我还是个 newbie 开发者、一个半吊子设计师和一个咕咕咕的 Tech 作者。我更喜欢叫自己「人民艺术家」，给大家鞠躬了。🙇</p>
+      <p>大家好，我是Jack，山大EE专业大四在读，选错专业，迷茫，...</p>
 
       <h2>我的项目</h2>
       <p>
         我所做过的项目几乎都开源于
-        <a href="https://github.com/spencerwooo">GitHub</a> 上面，欢迎大家 Star + Fork，笔芯 (✿◡‿◡)
+        <a href="https://github.com/skycity"><img src="@/assets/github.jpg" height = 20 />GitHub</a> 上面，欢迎大家 Star + Fork
       </p>
 
       <div class="github-project-card">
         <h3>
-          <a href="https://github.com/spencerwooo/dowww">📟 Dev on Windows with WSL</a>
+          <a href="https://github.com/skycity233/mdpic">📟 MdPic</a>
         </h3>
         <p>
-          Dev on Windows with WSL：在 Windows 上用 WSL 优雅开发。目前我关注量与 Star 数量最高的一个项目，主要介绍了如何在 Windows 10 中引进的 Windows Subsystem for Linux 中进行开发与工作。主站：
-          <a
-            href="https://dowww.spencerwoo.com/"
-          >Dev on Windows with WSL</a>
+          MdPic：利用Github搭建自己的图床，不用担心GitHub突然去世所以稳定性还是很好的。做完才发现
+		  <a
+            href="https://github.com/Molunerfinn/PicGo"
+          >PicGo</a>
+		  已经实现了。🤷‍♂️，不过第一次有人fork我，开心！✌️
+          
         </p>
         <div class="github-repo-stats">
-          <a href="https://github.com/spencerwooo/dowww/stargazers">
+          <a href="https://github.com/skycity233/mdpic/stargazers">
             <svg
               aria-label="stars"
               class="octicon octicon-star"
@@ -42,7 +44,7 @@
             </svg>
             {{ dowwwInfo.stargazers_count }}
           </a>
-          <a href="https://github.com/spencerwooo/dowww/network/members">
+          <a href="https://github.com/skycity233/mdpic/network/members">
             <svg
               aria-label="forks"
               class="octicon octicon-repo-forked"
@@ -64,11 +66,20 @@
 
       <div class="github-project-card">
         <h3>
-          <a href="https://github.com/spencerwooo/BITCS-Coursework">📘 BITCS Coursework 大合集</a>
+          <a href="https://github.com/skycity233/smpic">📟 SmPic</a>
         </h3>
-        <p>不完整北京理工大学计算机学院课程项目资料清单。这一份清单大致包含了北京理工大学计算机学院，计算机科学与技术专业，大学本科过程中的全部课程任务和代码项目。清单中包含的项目全部都是我自己参与开发编写，实测符合课程要求。</p>
+        <p>SdPic：利用
+		  <a
+            href="https://sm.ms/"
+          >SM.MS</a>
+		  的API实现的图床，可以登录与免登录使用。做完才知道有1分钟10张的限制。所以又在此基础上实现了
+		  <a
+            href="https://github.com/Molunerfinn/PicGo"
+          >MdPic</a>
+		  ，不过SM.MS速度还是很快的，所以很推荐使用。
+		  </p>
         <div class="github-repo-stats">
-          <a href="https://github.com/spencerwooo/BITCS-Coursework/stargazers">
+          <a href="https://github.com/skycity233/smpic/stargazers">
             <svg
               aria-label="stars"
               class="octicon octicon-star"
@@ -244,66 +255,25 @@
         </div>
       </div>
 
-      <h2>我的设备</h2>
-      <ul>
-        <li>
-          主力台式机：Intel® NUC Kit NUC8I5BEK
-          <ul>
-            <li>
-              配置清单：
-              <ul>
-                <li>CPU: Intel® Core™ i5-8295U</li>
-                <li>RAM: ADATA 16GB (8GB×2) DDR4 2666MHz</li>
-                <li>M.2 SSD: SAMSUNG PM981 M.2 NVME 256GB</li>
-              </ul>
-            </li>
-            <li>
-              介绍：
-              <a href="https://sspai.com/post/54788">性能强劲的「迷你台式机」，Intel NUC 一周使用体验</a>
-            </li>
-          </ul>
-        </li>
-        <li>
-          ThinkPad X1 Yoga (1st Gen)：
-          <ul>
-            <li>
-              介绍：
-              <a href="https://sspai.com/post/45742">迁移到 Windows 后，我如何找回熟悉的 macOS 体验</a>
-            </li>
-          </ul>
-        </li>
-        <li>12-inch MacBook：观赏性质 > 实用价值</li>
-        <li>
-          Sony 1000XM3：
-          <ul>
-            <li>
-              介绍：
-              <a href="https://sspai.com/post/47794">降噪、音质、续航一网打尽：索尼 1000XM3 降噪耳机体验</a>
-            </li>
-          </ul>
-        </li>
-        <li>iPhone XR</li>
-        <li>iPad Air 3rd Gen</li>
-        <li>Apple Watch Series 3</li>
-        <li>AirPods Pro</li>
-      </ul>
+
+      
 
       <h2>联系我</h2>
       <p>
         欢迎大家直接订阅我的发布，详情请参考：
-        <router-link to="/subscribe">Spencer Woo - Subscribe</router-link>
+        <router-link to="/subscribe">Jack Wang - Subscribe</router-link>
       </p>
       <p>我的联系方式：</p>
       <ul>
         <li>
           📫 邮箱：
-          <a href="mailto:spencerwoo98@gmail.com">spencerwoo98#gmail.com</a>
+          <a href="mailto:realJackWang@gmail.com">realJackWang@gmail.com</a>
         </li>
         <li>
           ✈ Telegram：
           <a href="https://t.me/SpencerWoo">t.me/SpencerWoo</a>
         </li>
-        <li>📍 Beijing Institute of Technology, Beijing, China</li>
+        <li>📍 Shandong University, Tsingtao, Shandong, China</li>
       </ul>
     </div>
   </div>
@@ -337,12 +307,12 @@ export default {
   },
   mounted() {
     this.axios
-      .get('https://api.github.com/repos/spencerwooo/dowww')
+      .get('https://api.github.com/repos/skycity233/mdpic')
       .then(resp => {
         this.dowwwInfo = resp.data
       })
     this.axios
-      .get('https://api.github.com/repos/spencerwooo/BITCS-Coursework')
+      .get('https://api.github.com/repos/skycity233/smpic')
       .then(resp => {
         this.bitcsInfo = resp.data
       })

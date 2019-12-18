@@ -45,7 +45,7 @@
 
     <div id="others">
       <hr />
-      <h3>你可以这样联系我：</h3>
+      <h3>你还可以这样找到我：</h3>
       <div class="social-media">
         <div class="social-media-card">
           <img class="media-icon" src="@/assets/weibo.png" alt="weibo" />
@@ -95,6 +95,17 @@
             <a href="https://spencerwoo.com">spencerwoo.com</a>
 			 &nbsp;
 			(Special Thanks, Learnt lots of new-tech from his blog.)
+			
+          </span>
+        </div>
+		
+		 <div class="social-media-card">
+          <img class="media-icon" src="http://huangyz.name/assets/images/blog-black.svg" alt="huangyz" />
+          <span>
+            Yizheng Huang:&nbsp;
+            <a href="http://huangyz.name/">huangyz.name</a>
+			 &nbsp;
+			(Special Thanks, His is my example.)
 			
           </span>
         </div>
