@@ -259,10 +259,12 @@
       
 
       <h2>联系我</h2>
-      <p>
-        欢迎大家直接订阅我的发布，详情请参考：
-        <router-link to="/subscribe">Jack Wang - Subscribe</router-link>
-      </p>
+	    欢迎大家直接订阅我的发布，详情请参考：
+	    <a
+            href="https://wangbj.top/subscribe"
+          >Jack Wang - Subscribe</a>
+	  
+    
       <p>我的联系方式：</p>
       <ul>
         <li>
