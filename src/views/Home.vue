@@ -4,10 +4,10 @@
         <h1>Jack Wang</h1>
         <h3>CS精神在读 / 啥都会一点的程序猿 </h3>
         <p>Status: 爱尔兰留学申请ing.
-            <a href="https://notion.so/wangbj"> [🎯 Progress]</a>
+            <a href="https://www.notion.so/wangbj/2f3e25caa43f4d67bd0477cc23f86ccc?v=64c7ea30612f408d80ff306d59e0d6c7"> [🎯 Progress]</a>
         </p>
         <p>Goal: Working on Java and Android, Dreaming to be a Software Engineering.
-            <a href="https://notion.so/wangbj"> [🎯 Progress]</a>
+            <a href="https://www.notion.so/wangbj/02ced2364fe9403b9e07ffbbcb6d6640?v=9e5275aa81244c0697eec9af811d852c"> [🎯 Progress]</a>
         </p>
 
         <hr id="top-hr"/>
