@@ -45,7 +45,7 @@
                 <p id="busuanzi_container_site_pv">
                     Viewed by
                     <span id="busuanzi_value_site_uv"></span>
-                    you of guys for a total of
+                    of you guys for a total of
                     <span id="busuanzi_value_site_pv"></span> times ♥
 
 
