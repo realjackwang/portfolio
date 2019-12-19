@@ -32,7 +32,7 @@
         </transition>
 
         <div id="footer">
-			<meta name="baidu-site-verification" content="aE6dFYEbag" />
+			
             <div id="footer-text">
                 <p>
                     Built with ♥ and

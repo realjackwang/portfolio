@@ -99,7 +99,7 @@
             </div>
 
             <div class="social-media-card">
-                <img class="media-icon" src="http://huangyz.name/assets/images/blog-black.svg" alt="huangyz"/>
+                <img class="media-icon" src="@/assets/spencerwoo.jpg" alt="huangyz"/>
                 <span>
             Yizheng Huang:&nbsp;
             <a href="http://huangyz.name/">huangyz.name</a>
