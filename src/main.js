@@ -9,6 +9,7 @@ import axios from 'axios'
 import Home from './views/Home.vue'
 import About from './views/About.vue'
 import Subscribe from './views/Subscribe.vue'
+import Cool from './views/Cool.vue'
 
 Vue.config.productionTip = false
 Vue.use(VueRouter)
@@ -23,6 +24,7 @@ const router = new VueRouter({
     { path: '/', component: Home },
     { path: '/about', component: About },
     { path: '/subscribe', component: Subscribe }
+    { path: '/cool', component: Cool}
   ]
 })
 
