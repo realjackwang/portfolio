@@ -1,7 +1,7 @@
 <template>
     <div class="container">
         <h1>📩</h1>
-        <h1>Subscribe</h1>
+        <h1>Cool</h1>
         <p>如何订阅我的文章，或跟踪我在其他平台的发布？</p>
 
         <hr id="top-hr"/>
