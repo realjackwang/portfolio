@@ -25,7 +25,7 @@
                     <router-link to="/subscribe">SUBSCRIBE</router-link>
                 </div>
 				 <div class="link">
-                    <router-link to="/cool">Cool Web</router-link>
+                    <router-link to="/cool">COOL WEB</router-link>
                 </div>
             </template>
         </vue-navigation-bar>
