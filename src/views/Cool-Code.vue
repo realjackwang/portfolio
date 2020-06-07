@@ -1,7 +1,9 @@
 <template>
   <el-container>
     <el-aside width="150px">
-      <el-row type="flex" class="row-bg" justify="center">&nbsp COOOOOL WEB</el-row>
+      <el-row type="flex" class="row-bg" justify="center">
+        <div>&nbspCOOOOOL WEB</div>
+      </el-row>
       <el-row type="flex" class="row-bg" justify="center"></el-row>
       <el-row type="flex" class="row-bg" justify="center"></el-row>
       <el-row type="flex" class="row-bg" justify="center"></el-row>
@@ -62,6 +64,7 @@
         </el-col>
       </el-row>
 
+      
       <el-row type="flex" class="row-bg" justify="center">
         <el-col :span="6">
           <img src="https://i.loli.net/2020/06/07/67MeAYjUf8qWFdi.png" height="32px" />
@@ -72,17 +75,6 @@
           </div>
         </el-col>
       </el-row>
-      <!--
-      <el-row type="flex" class="row-bg" justify="center">
-        <el-col :span="6">
-          <img src="https://i.loli.net/2020/06/07/67MeAYjUf8qWFdi.png" height="32px" />
-        </el-col>
-        <el-col :span="10">
-          <div id="title">
-            <a @click="open3">报告失效</a>
-          </div>
-        </el-col>
-      </el-row>-->
 
       <el-row type="flex" class="row-bg" justify="center">🚀：可能需要VPN</el-row>
     </el-aside>
@@ -122,48 +114,17 @@ export default {
     return {
       sites: [
            {
-          name: '自我销毁网页',
-          msg: '一个匿名网站，如果 24 小时内没有收到访问者的留言，将会自我销毁',
-          url: 'https://www.thiswebsitewillselfdestruct.com/',
-          img: 'https://i.loli.net/2020/05/26/E2lN58Gz3cFTaZb.png'
+          name: 'Code Img',
+          msg: '生成代码块图片，便于在Blog中插图',
+          url: 'https://codeimg.io/',
+          img: 'https://i.loli.net/2020/06/07/nUv7cOduD45oTGA.png'
         },
         {
-          name: '孟坤 Web 实验室',
-          msg: '一些新鲜、好玩的 Html 作品。',
-          url: 'http://lab.mkblog.cn/',
-          img: 'https://i.loli.net/2020/06/07/JDRd6gfLYhZs2wM.png'
+          name: '编程字体试用',
+          msg: '可以在线试用多种字体、并提供下载',
+          url: '//www.programmingfonts.org/',
+          img: 'https://i.loli.net/2020/06/07/jIwnVgZ49iPuHEB.png'
         },
-        {
-          name: '让我帮你百度一下',
-          msg: '有人向你问了不想回答的问题，输入关键字，生成链接，然后发给他',
-          url: '//lab.mkblog.cn/lmbtfy/',
-          img: 'https://i.loli.net/2020/06/06/O6BM3VLREgGf5Qs.jpg'
-        },
-        {
-          name: 'Yes or No 🚀',
-          msg: '每次打开或刷新网站，都会得到一个 Yes 或 No 的答案',
-          url: '//yesno.wtf/',
-          img: 'https://i.loli.net/2020/06/06/nJfcrGvb2gVHNtT.png'
-        },
-        {
-          name: '能不能好好说话',
-          msg: '这个tmd网络世界我真的太恨缩写了，查找文字中的缩写的意思',
-          url: '//lab.magiconch.com/nbnhhsh/',
-          img: 'https://i.loli.net/2020/06/07/UBsaPlc8w9IL42C.png'
-        },
-        {
-          name: '无限分裂 🚀',
-          msg:
-            '滑动鼠标，让圆形不断分裂，你会发现一只考拉🐨的照片，并且越来越清晰',
-          url: 'http://koalastothemax.com/',
-          img: 'https://i.loli.net/2020/06/06/VThniX89qm2wHus.png'
-        },
-        {
-          name: '不会百度嘛',
-          msg: '有人向你问了不想回答的问题，输入关键字，生成链接，然后发给他',
-          url: '//yesno.wtf/',
-          img: 'https://i.loli.net/2020/06/06/O6BM3VLREgGf5Qs.jpg'
-        }
       ]
     }
   },
@@ -190,7 +151,7 @@ export default {
         }
       })
     },
-    open3() {
+     open3() {
       this.$prompt('请输入有趣的网址（Bark推送提供支持）', '提示', {
         confirmButtonText: '确定',
         cancelButtonText: '取消',
@@ -247,8 +208,6 @@ ul {
 p {
   line-height: 30px;
   text-align: center;
-  font-size: 20px;
-  color: black;
 }
 
 a {

@@ -12,6 +12,10 @@ import Home from './views/Home.vue'
 import About from './views/About.vue'
 import Subscribe from './views/Subscribe.vue'
 import Cool from './views/Cool.vue'
+import CoolGame from './views/Cool-Game.vue'
+import CoolCode from './views/Cool-Code.vue'
+import CoolTool from './views/Cool-Tool.vue'
+import CoolBook from './views/Cool-Book.vue'
 
 Vue.config.productionTip = false
 Vue.use(VueRouter)
@@ -27,7 +31,11 @@ const router = new VueRouter({
     { path: '/', component: Home },
     { path: '/about', component: About },
     { path: '/subscribe', component: Subscribe },
-    { path: '/cool', component: Cool}
+    { path: '/cool', component: Cool},
+    { path: '/cool-game', component: CoolGame},
+    { path: '/cool-code', component: CoolCode},
+    { path: '/cool-tool', component: CoolTool},
+    { path: '/cool-book', component: CoolBook}
   ]
 })
 
