@@ -112,19 +112,38 @@ export default {
   data() {
     return {
       sites: [
-            {
+          {
+          name: 'A Dark Room',
+          msg: '款纯文字冒险游戏,整个游戏没有一张图片,却造就了一代经典',
+          url: 'http://lab.mkblog.cn/adarkroom/',
+          img: 'https://i.loli.net/2020/06/07/Mj7lLNT2fi8w3tZ.png'
+        },
+        {
+          name: 'FC 游戏在线玩',
+          msg: '在线游玩FC游戏，可上传自己的NES游戏ROM',
+          url: 'http://lab.mkblog.cn/FCGames/#/',
+          img: 'https://i.loli.net/2020/06/07/W4UyJjxicADntFI.png'
+        },
+        {
+          name: 'DOS模拟器',
+          msg: '在线玩 1800+ 个 DOS 游戏（金庸群侠传、仙剑奇侠传、红色警戒等）',
+          url: 'https://dos.zczc.cz/',
+          img: 'https://i.loli.net/2020/06/07/AaCHdZ2goDkU4JL.png'
+        },
+
+        {
           name: 'AimBooster',
           msg: '一个用来练枪的网站',
           url: 'http://www.aimbooster.com/',
           img: 'https://i.loli.net/2020/06/07/mWU5MqHN3KCjxEf.png'
         },
-            {
+        {
           name: 'YORG.IO',
           msg: '超耐玩的塔防游戏，画面简单漂亮，僵尸超可爱，不会疲劳。',
           url: 'https://yorg.io/',
           img: 'https://i.loli.net/2020/06/07/X8Ia9uH3VrPedvk.png'
         },
-          {
+        {
           name: 'Evolution',
           msg: '通过不断的进化让你设计的生物完成各种动作',
           url: 'https://keiwan.itch.io/evolution',

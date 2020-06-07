@@ -121,6 +121,13 @@ export default {
   data() {
     return {
       sites: [
+        
+            {
+          name: 'Asteroids',
+          msg: '驾驶一个小飞机在任意网页搞破坏',
+          url: 'http://www.websiteasteroids.com/',
+          img: 'https://i.loli.net/2020/06/07/q5XIm26xbcLPvQe.png'
+        },
            {
           name: '自我销毁网页',
           msg: '一个匿名网站，如果 24 小时内没有收到访问者的留言，将会自我销毁',
@@ -158,12 +165,6 @@ export default {
           url: 'http://koalastothemax.com/',
           img: 'https://i.loli.net/2020/06/06/VThniX89qm2wHus.png'
         },
-        {
-          name: '不会百度嘛',
-          msg: '有人向你问了不想回答的问题，输入关键字，生成链接，然后发给他',
-          url: '//yesno.wtf/',
-          img: 'https://i.loli.net/2020/06/06/O6BM3VLREgGf5Qs.jpg'
-        }
       ]
     }
   },

@@ -114,9 +114,15 @@ export default {
     return {
       sites: [
           {
+          name: 'Reabble',
+          msg: '在 kindle 或其他设备上在线阅读 inoreader上的RSS 文章，免费但有限制',
+          url: 'https://reabble.cn/app',
+          img: 'https://i.loli.net/2020/06/07/SMwtfFqzEXIn1eG.png'
+        },
+          {
           name: 'WhereMyLife',
           msg: '在 kindle 上阅读 RSS 文章，每天把更新内容推送到你的 kindle',
-          url: '//http://wheremylife.cn/home#top',
+          url: 'http://wheremylife.cn/home#top',
           img: 'https://i.loli.net/2020/06/07/GSMbLmq5knPZh1A.png'
         },
         {

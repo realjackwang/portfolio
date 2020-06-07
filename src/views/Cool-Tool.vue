@@ -112,6 +112,18 @@ export default {
   data() {
     return {
       sites: [
+              {
+          name: 'Steam历史价格',
+          msg: '查询Steam游戏的历史价格',
+          url: 'https://steamdb.info/',
+          img: 'https://i.loli.net/2020/06/07/wcRP4ljN9YQbtx6.png'
+        },
+          {
+          name: '匿名发邮件',
+          msg: 'Temp Mail提供临时、安全、匿名、免费的一次性电子邮件地址。',
+          url: 'https://temp-mail.org/zh/',
+          img: 'https://i.loli.net/2020/06/07/j4Xnf7CJSoam2Zu.png'
+        },
            {
           name: 'Temp Mail',
           msg: 'Temp Mail提供临时、安全、匿名、免费的一次性电子邮件地址。',
