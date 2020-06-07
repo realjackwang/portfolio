@@ -5,8 +5,6 @@ import VueParticles from 'vue-particles'
 import VueNavigationBar from 'vue-navigation-bar'
 import VTooltip from 'v-tooltip'
 import axios from 'axios'
-import Element from 'element-ui'
-import 'element-ui/lib/theme-chalk/index.css';
 
 import Home from './views/Home.vue'
 import About from './views/About.vue'
@@ -17,7 +15,6 @@ Vue.config.productionTip = false
 Vue.use(VueRouter)
 Vue.use(VueParticles)
 Vue.use(VTooltip)
-Vue.use(Element)
 Vue.component("vue-navigation-bar", VueNavigationBar)
 
 const router = new VueRouter({
