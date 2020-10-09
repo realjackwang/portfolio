@@ -64,7 +64,6 @@
         </el-col>
       </el-row>
 
-     
       <el-row type="flex" class="row-bg" justify="center">
         <el-col :span="6">
           <img src="https://i.loli.net/2020/06/07/67MeAYjUf8qWFdi.png" height="32px" />
@@ -113,13 +112,28 @@ export default {
   data() {
     return {
       sites: [
-          {
+        {
+          name: 'Epubee',
+          msg:
+            '表面上是一个在线转换器，实际上是一个电子书下载网站，免费使用但有限制',
+          url: 'http://cn.epubee.com/',
+          img: 'https://i.loli.net/2020/06/08/5iIg2rsNdt9wXSn.png'
+        },
+        {
+          name: 'I-Book.in',
+          msg:
+            '非常方便的搜索、下载你所需要的文件,搜索引擎索引的所有电子书均由网友自主上传到IPFS网络',
+          url: 'https://book.tstrs.me/',
+          img: 'https://i.loli.net/2020/06/08/qnVArm7vpxiSb92.png'
+        },
+        {
           name: 'Reabble',
-          msg: '在 kindle 或其他设备上在线阅读 inoreader上的RSS 文章，免费但有限制',
+          msg:
+            '在 kindle 或其他设备上在线阅读 inoreader上的RSS 文章，免费但有限制',
           url: 'https://reabble.cn/app',
           img: 'https://i.loli.net/2020/06/07/SMwtfFqzEXIn1eG.png'
         },
-          {
+        {
           name: 'WhereMyLife',
           msg: '在 kindle 上阅读 RSS 文章，每天把更新内容推送到你的 kindle',
           url: 'http://wheremylife.cn/home#top',
@@ -127,10 +141,11 @@ export default {
         },
         {
           name: '鸠摩搜索',
-          msg: '一个搜书网站,界面设计的非常的美观,没有多余的功能,使用也是完全免费的',
+          msg:
+            '一个搜书网站,界面设计的非常的美观,没有多余的功能,使用也是完全免费的',
           url: 'https://www.jiumodiary.com/',
           img: 'https://i.loli.net/2020/06/07/KjZlN46nkAfLqo7.png'
-        },
+        }
       ]
     }
   },
@@ -157,7 +172,7 @@ export default {
         }
       })
     },
-     open3() {
+    open3() {
       this.$prompt('请输入有趣的网址（Bark推送提供支持）', '提示', {
         confirmButtonText: '确定',
         cancelButtonText: '取消',

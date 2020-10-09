@@ -24,9 +24,11 @@
         <div class="link">
           <router-link to="/subscribe">SUBSCRIBE</router-link>
         </div>
+        <!--
         <div class="link">
           <router-link to="/cool">COOL WEB</router-link>
         </div>
+        -->
       </template>
     </vue-navigation-bar>
 
@@ -82,12 +84,12 @@ export default {
         mobileBreakpoint: 992,
         ariaLabelMainNav: 'Main Navigation',
         menuOptionsRight: [
-          /*{
+          {
                             type: 'button',
-                            text: '',
-                            path: 'https://github.com/spencerwooo',
+                            text: 'COOL WEB',
+                            path: '/cool',
                             class: 'button-github'
-                        }*/
+                        }
         ]
       }
     }

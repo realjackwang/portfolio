@@ -3,7 +3,7 @@
         <img id="avatar" alt="avatar" src="./../assets/icon.gif"/>
         <h1>Jack Wang</h1>
         <h3>CS精神在读 / 啥都会一点的程序猿 </h3>
-        <p>Status: 爱尔兰留学申请ing.
+        <p>Status: 考研ing.
             <a href="https://www.notion.so/wangbj/2f3e25caa43f4d67bd0477cc23f86ccc?v=64c7ea30612f408d80ff306d59e0d6c7"> [🎯 Progress]</a>
         </p>
         <p>Goal: Working on Java and Android, Dreaming to be a Software Engineering.
