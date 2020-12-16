@@ -2,6 +2,7 @@
     <div class="container">
         <img id="avatar" alt="avatar" src="./../assets/icon.gif"/>
         <h1>Jack Wang</h1>
+		<h3>学业繁重，暂缓更新</h3>
         <h3>CS精神在读 / 啥都会一点的程序猿 </h3>
         <p>Status: 考研ing.
             <a href="https://www.notion.so/wangbj/2f3e25caa43f4d67bd0477cc23f86ccc?v=64c7ea30612f408d80ff306d59e0d6c7"> [🎯 Progress]</a>
