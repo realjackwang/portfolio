@@ -62,7 +62,7 @@
         <p id="footer-copyright">
           ©{{ getYear() }} Jack Wang  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
           <a href="https://github.com/spencerwooo/portfolio">
-            <img src="https://flat.badgen.net/badge/Designed%20by/@SpencerWoo/blue" alt="copyright" height="16px"/>
+          <img src="https://img.shields.io/badge/Designed%20by-github.com%2Fspencerwooo-black?logo=github&style=for-the-badge&labelColor=24292e" alt="copyright"/>
           </a>
         </p>
       </div>
