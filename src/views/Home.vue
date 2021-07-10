@@ -21,7 +21,7 @@
                     description="📒 立个Flag多写点Blog 🏳️‍🌈"
                     textColor="#FFFFFF"
                     icon="netlify.png"
-                    link="https://hugo.wangbj.top"
+                    link="https://blog.jackwang.cn"
             />
 
             <Card
@@ -30,17 +30,19 @@
                     description="📦 我做过的项目都在这里"
                     textColor="#FFFFFF"
                     icon="github.png"
-                    link="https://github.com/skycity233"
+                    link="https://github.com/realJackWang"
             />
 
+            /*
             <Card
                     msg="Hexo Blog"
                     backgroundColor="#ca2c2a"
                     description="🔌 不再维护"
                     textColor="#FFFFFF"
                     icon="hexo.png"
-                    link="https://blog.wangbj.top"
+                    link="https://blog.jackwang.cn"
             />
+            */
 
         </div>
 
