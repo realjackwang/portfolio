@@ -2,7 +2,24 @@
   <div class="container">
     <img id="avatar" alt="avatar" src="./../assets/icon.gif" />
     <h1>Jack Wang</h1>
-    <h3>啥都会一点的程序猿</h3>
+    <h3>学业繁重，暂缓更新</h3>
+    <h3>CS精神在读 / 啥都会一点的程序猿</h3>
+    <p>
+      Status: 考研ing.
+      <a
+        href="https://www.notion.so/wangbj/2f3e25caa43f4d67bd0477cc23f86ccc?v=64c7ea30612f408d80ff306d59e0d6c7"
+      >
+        [🎯 Progress]</a
+      >
+    </p>
+    <p>
+      Goal: Working on Java and Android, Dreaming to be a Software Engineering.
+      <a
+        href="https://www.notion.so/wangbj/02ced2364fe9403b9e07ffbbcb6d6640?v=9e5275aa81244c0697eec9af811d852c"
+      >
+        [🎯 Progress]</a
+      >
+    </p>
 
     <hr id="top-hr" />
     <h3>🎉 Where to find me:</h3>
@@ -25,6 +42,16 @@
         link="https://github.com/realJackWang"
       />
 
+      <!--
+            <Card
+                    msg="Hexo Blog"
+                    backgroundColor="#ca2c2a"
+                    description="🔌 不再维护"
+                    textColor="#FFFFFF"
+                    icon="hexo.png"
+                    link="https://blog.jackwang.cn"
+            />
+            -->
     </div>
 
     <div id="others">
@@ -42,7 +69,7 @@
           <img class="media-icon" src="@/assets/twitter.png" alt="twitter" />
           <span>
             Twitter:
-            <a href="https://twitter.com/Real_JackWang">@Real_JackWang</a>
+            <a href="https://twitter.com/w1197274057">@w1197274057</a>
           </span>
         </div>
         <div class="social-media-card">

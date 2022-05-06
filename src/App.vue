@@ -39,9 +39,17 @@
     <div id="footer">
       <div id="footer-text">
         <p>
-          Built with ♥ and
-          <a href="https://vuejs.org/">Vue.js</a> | Proudly deployed on
+          Powered by
+          <a href="https://vuejs.org/">Vue.js</a> and
           <a href="https://netlify.com/">Netlify</a>
+          &nbsp&nbsp
+          <a href="https://github.com/spencerwooo/portfolio">
+            <img
+              src="https://img.shields.io/badge/Designed%20by-github.com%2Fspencerwooo-black?logo=github&style=for-the-badge&labelColor=24292e"
+              alt="copyright"
+              height="20"
+            />
+          </a>
         </p>
 
         <p id="busuanzi_container_site_pv">
@@ -59,17 +67,11 @@
         </p>
         -->
 
-        <p id="footer-copyright">
-          ©{{ getYear() }} Jack Wang  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-          <a href="https://github.com/spencerwooo/portfolio">
-          <img src="https://img.shields.io/badge/Designed%20by-github.com%2Fspencerwooo-black?logo=github&style=for-the-badge&labelColor=24292e" alt="copyright"/>
-          </a>
-        </p>
+        <p id="footer-copyright">©2019-{{ getYear() }} &nbsp Jack Wang</p>
       </div>
     </div>
   </div>
 </template>
-
 
 <script>
 import 'vue-navigation-bar/dist/vue-navigation-bar.css'
@@ -85,11 +87,11 @@ export default {
         ariaLabelMainNav: 'Main Navigation',
         menuOptionsRight: [
           {
-                            type: 'button',
-                            text: 'COOL WEB',
-                            path: '/cool',
-                            class: 'button-github'
-                        }
+            type: 'button',
+            text: 'COOL WEB',
+            path: 'https://cool.jackwang.cn',
+            class: 'button-github'
+          }
         ]
       }
     }
