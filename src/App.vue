@@ -67,7 +67,10 @@
         </p>
         -->
 
-        <p id="footer-copyright">©2019-{{ getYear() }} &nbsp Jack Wang</p>
+        <p id="footer-copyright"> 
+          ©2019-{{ getYear() }} &nbsp Jack Wang &nbsp
+          <a href="https://beian.miit.gov.cn/" target="_blank">渝ICP备2022005666号-1</a>
+        </p>
       </div>
     </div>
   </div>
